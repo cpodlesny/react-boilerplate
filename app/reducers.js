@@ -41,11 +41,13 @@ function routeReducer(state = routeInitialState, action) {
  * Creates the main reducer with the asynchronously loaded ones
  */
 import contactPageReducer from 'containers/ContactPage/reducer';
+import userPageReducer from 'containers/UserPage/reducer';
 export default function createReducer(asyncReducers) {
   return combineReducers({
     route: routeReducer,
     global: globalReducer,
     contactPage: contactPageReducer,
+    userPage: userPageReducer,
     ...asyncReducers,
   });
 }

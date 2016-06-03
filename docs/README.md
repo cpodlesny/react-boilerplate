@@ -5,6 +5,7 @@
 - [General](general)
   - [**Commands**](general/commands.md)
   - [Files](general/files.md)
+  - [Style Guide](guide/style-guide.md)
   - [Server Configurations](general/server-configs.md)
   - [FAQ](general/faq.md)
   - [Gotchas](general/gotchas.md)
